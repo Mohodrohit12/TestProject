@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-16T19:32:00 IST" name="Suite" finished-at="2022-02-16T19:34:50 IST" duration-ms="169873">
+    <groups>
+    </groups>
+    <test started-at="2022-02-16T19:32:00 IST" name="EdgeTest" finished-at="2022-02-16T19:34:27 IST" duration-ms="146956">
+      <class name="tests.FinalVerifyHeadersOFApplication">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:32:00 IST" name="launchBrowser" finished-at="2022-02-16T19:33:12 IST" duration-ms="71882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:33:12 IST" name="createPOMObject" finished-at="2022-02-16T19:33:12 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:33:12 IST" name="loginToApplication" finished-at="2022-02-16T19:33:47 IST" duration-ms="34393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyTaskButton()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:33:47 IST" name="toVerifyTaskButton" finished-at="2022-02-16T19:34:11 IST" duration-ms="23859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyTaskButton -->
+        <test-method is-config="true" signature="logoutFromAPPlication(org.testng.ITestResult)[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:34:11 IST" name="logoutFromAPPlication" finished-at="2022-02-16T19:34:13 IST" duration-ms="2249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyTaskButton status=SUCCESS method=FinalVerifyHeadersOFApplication.toVerifyTaskButton()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAPPlication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:34:13 IST" name="loginToApplication" finished-at="2022-02-16T19:34:14 IST" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyUserTab()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:34:14 IST" name="toVerifyUserTab" finished-at="2022-02-16T19:34:23 IST" duration-ms="9018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserTab -->
+        <test-method is-config="true" signature="logoutFromAPPlication(org.testng.ITestResult)[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:34:23 IST" name="logoutFromAPPlication" finished-at="2022-02-16T19:34:24 IST" duration-ms="1451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyUserTab status=SUCCESS method=FinalVerifyHeadersOFApplication.toVerifyUserTab()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAPPlication -->
+        <test-method is-config="true" signature="clearPOMOObject()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:34:24 IST" name="clearPOMOObject" finished-at="2022-02-16T19:34:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMOObject -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@25084a1e]" started-at="2022-02-16T19:34:24 IST" name="closedBrowser" finished-at="2022-02-16T19:34:27 IST" duration-ms="2610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- tests.FinalVerifyHeadersOFApplication -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2022-02-16T19:34:27 IST" name="ChromeTest" finished-at="2022-02-16T19:34:50 IST" duration-ms="22743">
+      <class name="tests.FinalVerifyHeadersOFApplication">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:27 IST" name="launchBrowser" finished-at="2022-02-16T19:34:36 IST" duration-ms="8466" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:36 IST" name="createPOMObject" finished-at="2022-02-16T19:34:36 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:36 IST" name="loginToApplication" finished-at="2022-02-16T19:34:40 IST" duration-ms="4200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyTaskButton()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:40 IST" name="toVerifyTaskButton" finished-at="2022-02-16T19:34:43 IST" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyTaskButton -->
+        <test-method is-config="true" signature="logoutFromAPPlication(org.testng.ITestResult)[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:43 IST" name="logoutFromAPPlication" finished-at="2022-02-16T19:34:44 IST" duration-ms="684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyTaskButton status=SUCCESS method=FinalVerifyHeadersOFApplication.toVerifyTaskButton()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAPPlication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:44 IST" name="loginToApplication" finished-at="2022-02-16T19:34:45 IST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="toVerifyUserTab()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:45 IST" name="toVerifyUserTab" finished-at="2022-02-16T19:34:48 IST" duration-ms="3206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyUserTab -->
+        <test-method is-config="true" signature="logoutFromAPPlication(org.testng.ITestResult)[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:48 IST" name="logoutFromAPPlication" finished-at="2022-02-16T19:34:49 IST" duration-ms="966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyUserTab status=SUCCESS method=FinalVerifyHeadersOFApplication.toVerifyUserTab()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromAPPlication -->
+        <test-method is-config="true" signature="clearPOMOObject()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:49 IST" name="clearPOMOObject" finished-at="2022-02-16T19:34:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMOObject -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:tests.FinalVerifyHeadersOFApplication@2805d709]" started-at="2022-02-16T19:34:49 IST" name="closedBrowser" finished-at="2022-02-16T19:34:50 IST" duration-ms="975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- tests.FinalVerifyHeadersOFApplication -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
